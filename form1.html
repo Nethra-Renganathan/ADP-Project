@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+    </head>
+    
+    <body background="C:\Users\Nethra.R\Downloads\bad.jpg"></body>
+        <h2><center> BADMINTON REGISTRATION FORM</center></h2>
+        <form action="details.php" method="post">
+            <!--personal-->
+            <h1>PERSONAL DETAILS</h1>
+        <label for="usern">USERNAME:</label>
+        <input type="text" id="usern" name="username">
+        <br>
+        <label for="age">AGE:</label>
+        <input type="number" id="age" name="age">
+        <br>
+        <label for="gender">GENDER:</label>
+        <input type="radio" id="gender" name="gender" value="Male">Male
+        <input type="radio" id="gender" name="gender" value="Female">Female
+        <input type="radio" id="gender" name="gender" value="other">other
+        <br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+
+        <label for="email">EMAIL ID:</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="phonenum">PHONE NUMBER:</label>
+        <input type="number" id="phonenum" name="phonenum">
+        <br>
+        <label for="bipl">BIRTH PLACE</label>
+        <input type="text" id="bipl" name="bipl">
+        <br>
+
+        <label for="idma">IDENTIFICATION MARK</label>
+        <input type="text" id="idma" name="idma">
+        <br>
+        <!--family-->
+        <h1>FAMILY DETAILS</h1>
+        <label for="fname">FATHERS NAME:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="mname">MOTHERS NAME:</label>
+        <input type="text" id="mname" name="mname">
+        <br>
+        <label for="focc">FATHERS OCCUPATION</label>
+        <input type="radio" id="focc" name="focc" value="private">private
+        <input type="radio" id="focc" name="focc" value="government">government
+        <input type="radio" id="focc" name="focc" value="self-employeed">self-employeed
+        <input type="radio" id="focc" name="focc" value="none">none
+        <br>
+        <label for="mocc">MOTHERS OCCUPATION</label>
+
+        <input type="radio" id="mocc" name="mocc" value="private">private
+        <input type="radio" id="mocc" name="mocc" value="government">government
+        <input type="radio" id="mocc" name="mocc" value="self-employeed">self-employeed
+        <input type="radio" id="focc" name="focc" value="none">none
+        
+    
+        <br>
+        <br>
+        <!--education-->
+        <h1>EDUCAIONAL DETAILS</h1>
+        <label for="quali">QUALIFICTAION</label>
+        <input type="radio" id="quali" name="quali" value="10">10
+        <input type="radio" id="quali" name="quali" value="12">12
+        <input type="radio" id="quali" name="quali" value="ug">UG
+        <input type="radio" id="quali" name="quali" value="pg">PG
+        <br>
+
+        <label for="work">WORK</label>
+        <input type="radio" id="work" name="work" value="working">working
+        <input type="radio" id="work" name="work" value="student">student
+        <br>
+
+        <label for="address">ADDRESS</label>
+        <input type="text" id="address" name="address">
+        <br>
+
+        <label for="state">STATE</label>
+        <select id="" name="state">
+            <option value=""disalbled select>selet an option</option>
+            <option value="tamilnadu">TAMILNADU</option>
+            <option value="andhrapradesh">ANDHRAPRADESH</option>
+            <option value="kerala">KERALA</option>
+            <option value="karnataka">KARNATAKA</option>
+                </select>
+
+        <h1>CERTIFICATE</h1>
+        <label for="cert"> BIRTH CERTIFICATE</label>
+        <input type="file" id="cert">
+        <br>
+        
+        <!--submit button-->
+        <center><input type="submit" button="submit"></center>
+
+    </form>
+    </body>
+</html>
